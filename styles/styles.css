@@ -29,11 +29,37 @@ body {
 }
 
 /* HOME PAGE HERO */
-.hero {
-  width: 700px;
-  background-image: url("/assets/lo-lo-CeVj8lPBJSc-unsplash.jpg");
-  width: 25%;
+
+.hero-container {
+  width: 1400px;
+  margin: 0 auto;
 }
+
+.hero {
+  /* width: 700px;
+  background-image: url("/assets/lo-lo-CeVj8lPBJSc-unsplash.jpg");
+  width: 25%; */
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.horse,
+.hero-text {
+  width: 50%;
+}
+
+.horse {
+  background-image: url("../assets/lo-lo-CeVj8lPBJSc-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-text {
+  background-color: #0d7644;
+  padding: 120px 40px;
+}
+
 /* LOGO */
 .logo {
   position: absolute;
