@@ -36,9 +36,6 @@ body {
 }
 
 .hero {
-  /* width: 700px;
-  background-image: url("/assets/lo-lo-CeVj8lPBJSc-unsplash.jpg");
-  width: 25%; */
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -50,13 +47,13 @@ body {
 }
 
 .horse {
-  background-image: url("../assets/lo-lo-CeVj8lPBJSc-unsplash.jpg");
+  background-image: url("../assets/karsten-winegeart-GT6rDF2AhEM-unsplash.jpg");
   background-size: cover;
   background-position: center center;
 }
 
 .hero-text {
-  background-color: #0d7644;
+  background-color: #2f4a37;
   padding: 120px 40px;
 }
 
@@ -85,10 +82,40 @@ h3 {
 }
 
 h2 {
-  margin-top: 150px;
   text-align: center;
 }
 
+.hero-container h2 {
+  padding-top: 45px;
+}
+
+/* PRODUCTS AND SERVICES */
+.products-container {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.product-hero-one,
+.product-hero-two {
+  padding-top: 50px;
+}
+.product-text {
+  background-color: #2f4a37;
+}
+/* QUOTE */
+.quote {
+  background-color: #fff;
+  border-top: 5px solid #6fcf97;
+  border-bottom: 5px solid #6fcf97;
+  font-size: 32px;
+  height: 180px;
+}
+.quote p {
+  padding-top: 10px;
+  line-height: 35px;
+}
 /* FOOTER */
 footer ul {
   background-color: #fff;
