@@ -72,8 +72,8 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
 }
-/* HEADINGS */
 
+/* HEADINGS */
 h2,
 h3 {
   font-family: "Poppins", sans-serif;
@@ -99,7 +99,7 @@ h2 {
 
 .product-hero-one,
 .product-hero-two {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .product-text {
   background-color: #2f4a37;
@@ -116,6 +116,63 @@ h2 {
   padding-top: 10px;
   line-height: 35px;
 }
+
+/* ABOUT PAGE */
+.about-container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.kevin,
+.karine,
+.catherine,
+.samuel {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.kevin-image,
+.karine-image,
+.samuel-image,
+.catherine-image,
+.about-text {
+  width: 50%;
+}
+/* ABOUT IMAGES */
+.kevin-image {
+  background-image: url("../assets/Kevin_S5.webp");
+  background-size: cover;
+  background-position: center;
+}
+.karine-image {
+  background-image: url("../assets/amy-hirschi-b3AYk8HKCl0-unsplash.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.catherine-image {
+  background-image: url("../assets/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.samuel-image {
+  background-image: url("../assets/fred-moon-vSI2KnI4Abc-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* ABOUT TEXT */
+.about-text {
+  background-color: #0d7644;
+  padding: 120px 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 22px;
+}
+
 /* FOOTER */
 footer ul {
   background-color: #fff;
