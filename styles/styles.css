@@ -31,7 +31,7 @@ body {
 /* HOME PAGE HERO */
 
 .hero-container {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -91,18 +91,29 @@ h2 {
 
 /* PRODUCTS AND SERVICES */
 .products-container {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
 }
 
+.products-wrapper {
+  display: flex;
+}
 .product-hero-one,
 .product-hero-two {
   padding-top: 100px;
+  width: 50%;
 }
 .product-text {
   background-color: #2f4a37;
+  padding: 20px;
+}
+.checking {
+  background-image: url("../assets/jonathan-cooper-0O2Pp6-mOkY-unsplash.jpg");
+  width: 50%;
+}
+.investing {
+  background-image: url("../assets/lo-lo-CeVj8lPBJSc-unsplash.jpg");
+  width: 50%;
 }
 /* QUOTE */
 .quote {
