@@ -122,6 +122,7 @@ h2 {
   border-bottom: 5px solid #6fcf97;
   font-size: 32px;
   height: 180px;
+  text-align: center;
 }
 .quote p {
   padding-top: 10px;
@@ -143,11 +144,14 @@ h2 {
   flex-wrap: wrap;
 }
 
+.about-text {
+  width: 50%;
+}
+
 .kevin-image,
 .karine-image,
 .samuel-image,
-.catherine-image,
-.about-text {
+.catherine-image {
   width: 50%;
 }
 /* ABOUT IMAGES */
