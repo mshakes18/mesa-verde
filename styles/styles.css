@@ -102,10 +102,11 @@ h2 {
 .product-hero-two {
   padding-top: 100px;
   width: 50%;
+  background-color: #2f4a37;
 }
 .product-text {
-  background-color: #2f4a37;
   padding: 20px;
+  color: #fff;
 }
 .checking {
   background-image: url("../assets/jonathan-cooper-0O2Pp6-mOkY-unsplash.jpg");
