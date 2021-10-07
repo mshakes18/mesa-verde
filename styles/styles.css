@@ -55,6 +55,7 @@ body {
 .hero-text {
   background-color: #2f4a37;
   padding: 120px 40px;
+  color: #fff;
 }
 
 /* LOGO */
@@ -97,6 +98,7 @@ h2 {
 
 .products-wrapper {
   display: flex;
+  gap: 20px;
 }
 .product-hero-one,
 .product-hero-two {
@@ -104,6 +106,14 @@ h2 {
   width: 50%;
   background-color: #2f4a37;
 }
+
+.product-hero-one h3,
+.product-hero-two h3,
+.hero-text h3 {
+  text-align: center;
+  color: #fff;
+}
+
 .product-text {
   padding: 20px;
   color: #fff;
