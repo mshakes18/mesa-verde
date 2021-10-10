@@ -58,6 +58,10 @@ body {
   color: #fff;
 }
 
+.hero-text p {
+  padding-bottom: 25px;
+}
+
 /* LOGO */
 .logo {
   position: absolute;
@@ -163,25 +167,27 @@ h2 {
 .catherine,
 .samuel {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 .about-text {
   width: 50%;
 }
 
+/* ABOUT IMAGES */
 .kevin-image,
 .karine-image,
 .samuel-image,
 .catherine-image {
-  width: 50%;
+  width: 40%;
+  background-repeat: no-repeat;
 }
 /* ABOUT IMAGES */
 .kevin-image {
   background-image: url("../assets/Kevin_S5.webp");
   background-size: cover;
-  background-position: center;
+  background-position: 25px 50px;
+
+  height: 500px;
 }
 .karine-image {
   background-image: url("../assets/amy-hirschi-b3AYk8HKCl0-unsplash.jpg");
