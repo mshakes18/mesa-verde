@@ -94,6 +94,7 @@ h2 {
 .products-container {
   max-width: 1400px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .products-wrapper {
@@ -102,7 +103,7 @@ h2 {
 }
 .product-hero-one,
 .product-hero-two {
-  padding-top: 100px;
+  padding: 60px 40px;
   width: 50%;
   background-color: #2f4a37;
 }
@@ -115,12 +116,17 @@ h2 {
 }
 
 .product-text {
-  padding: 20px;
+  padding: 20px 0;
   color: #fff;
 }
+
 .checking {
-  background-image: url("../assets/jonathan-cooper-0O2Pp6-mOkY-unsplash.jpg");
-  width: 50%;
+  background-image: url("../assets/jonathan-cooper.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 10px 50px;
+  margin: 0 auto;
 }
 .investing {
   background-image: url("../assets/lo-lo-CeVj8lPBJSc-unsplash.jpg");
@@ -221,4 +227,5 @@ footer ul {
   font-weight: 300;
   padding: 10px;
   border: #000 2px solid;
+  text-decoration: none;
 }
