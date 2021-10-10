@@ -167,10 +167,12 @@ h2 {
 .catherine,
 .samuel {
   display: flex;
+  margin-bottom: 25px;
 }
 
 .about-text {
   width: 50%;
+  margin: 0px;
 }
 
 /* ABOUT IMAGES */
@@ -186,8 +188,6 @@ h2 {
   background-image: url("../assets/Kevin_S5.webp");
   background-size: cover;
   background-position: 25px 50px;
-
-  height: 500px;
 }
 .karine-image {
   background-image: url("../assets/amy-hirschi-b3AYk8HKCl0-unsplash.jpg");
