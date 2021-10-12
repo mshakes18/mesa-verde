@@ -230,6 +230,7 @@ footer ul {
   list-style: none;
   font-size: 20px;
   color: #0d7644;
+  text-transform: uppercase;
 }
 
 /* BUTTONS */
@@ -240,4 +241,22 @@ footer ul {
   padding: 10px;
   border: #000 2px solid;
   text-decoration: none;
+}
+
+/* FORM */
+
+form p,
+label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+label {
+  display: block;
+  padding-top: 10px;
+}
+input[type="text"],
+[type="email"] {
+  height: 70px;
+  width: 800px;
 }
