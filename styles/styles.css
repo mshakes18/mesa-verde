@@ -95,9 +95,7 @@ h3 {
 h2 {
   text-align: center;
 }
-.banking-hero-text h3 {
-  color: #fff;
-}
+
 .hero-container h2 {
   padding-top: 45px;
 }
@@ -120,6 +118,7 @@ h2 {
   background-color: #2f4a37;
 }
 
+.banking-hero-text h3,
 .product-hero-one h3,
 .product-hero-two h3,
 .hero-text h3 {
