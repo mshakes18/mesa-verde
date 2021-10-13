@@ -42,6 +42,7 @@ body {
 }
 
 .horse,
+.investing-horse,
 .banking-horse,
 .hero-text,
 .banking-hero-text {
@@ -178,7 +179,7 @@ h2 {
 }
 
 .about-text {
-  width: 50%;
+  width: 60%;
   margin: 0px;
 }
 
@@ -250,6 +251,33 @@ h2 {
   background-repeat: no-repeat;
 }
 
+/* INVESTMENT */
+.investing-horse {
+  background-image: url("../assets/kenny-webster-QrJc1RVI7uM-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.managed-account {
+  background-image: url("../assets/austin-distel-nGc5RT2HmF0-unsplash.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: 5px -110px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.investment-team {
+  background-image: url("../assets/thisisengineering-raeng-p5wrlynJR4A-unsplash.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: 5px -110px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
 /* FOOTER */
 footer ul {
   background-color: #fff;
@@ -264,6 +292,7 @@ footer ul {
   font-size: 20px;
   color: #0d7644;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 /* BUTTONS */
