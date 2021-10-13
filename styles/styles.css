@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e1e7e0;
+  margin: 0;
+}
+
+/* NAV BAR */
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px 20px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  background-color: #fff;
+  width: 100%;
+  border-bottom: #0d7644 2px solid;
+}
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #0d7644;
+}
+
+/* HOME PAGE HERO */
+
+.hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.horse,
+.investing-horse,
+.banking-horse,
+.hero-text,
+.banking-hero-text {
+  width: 50%;
+}
+
+.horse {
+  background-image: url("../assets/karsten-winegeart-GT6rDF2AhEM-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-text,
+.banking-hero-text {
+  background-color: #2f4a37;
+  padding: 120px 40px;
+  color: #fff;
+}
+
+.banking-hero-text {
+  text-align: center;
+}
+.hero-text p {
+  padding-bottom: 25px;
+}
+
+/* LOGO */
+.logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+/* HEADINGS */
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #0d7644;
+}
+
+h2 {
+  text-align: center;
+}
+
+.hero-container h2 {
+  padding-top: 45px;
+}
+
+/* PRODUCTS AND SERVICES */
+.products-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.products-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.product-hero-one,
+.product-hero-two {
+  padding: 60px 40px;
+  width: 50%;
+  background-color: #2f4a37;
+}
+
+.banking-hero-text h3,
+.product-hero-one h3,
+.product-hero-two h3,
+.hero-text h3 {
+  text-align: center;
+  color: #fff;
+}
+
+.product-text {
+  padding: 20px 0;
+  color: #fff;
+}
+/* PRODUCT HERO IMAGES */
+.checking {
+  background-image: url("../assets/jonathan-cooper.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 5px 50px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+.investing {
+  background-image: url("../assets/lo-lo-CeVj8lPBJSc-unsplash.jpg");
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: 5px 50px;
+  background-repeat: no-repeat;
+}
+/* QUOTE */
+.quote {
+  background-color: #fff;
+  border-top: 5px solid #6fcf97;
+  border-bottom: 5px solid #6fcf97;
+  font-size: 32px;
+  height: 180px;
+  text-align: center;
+}
+.quote p {
+  padding-top: 10px;
+  line-height: 35px;
+}
+
+/* ABOUT PAGE */
+.about-container {
+  width: 1400px;
+  margin: 100px auto;
+}
+
+.kevin,
+.karine,
+.catherine,
+.samuel {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.about-text {
+  width: 60%;
+  margin: 0px;
+}
+
+/* ABOUT IMAGES */
+.kevin-image,
+.karine-image,
+.samuel-image,
+.catherine-image {
+  width: 40%;
+  background-repeat: no-repeat;
+}
+/* ABOUT IMAGES */
+.kevin-image {
+  background-image: url("../assets/Kevin_S5.webp");
+  background-size: cover;
+  background-position: 25% 20%;
+}
+.karine-image {
+  background-image: url("../assets/amy-hirschi-b3AYk8HKCl0-unsplash.jpg");
+  background-size: cover;
+  background-position: 25% 32%;
+}
+
+.catherine-image {
+  background-image: url("../assets/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg");
+  background-size: cover;
+  background-position: 25% 25%;
+}
+
+.samuel-image {
+  background-image: url("../assets/fred-moon-vSI2KnI4Abc-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* ABOUT TEXT */
+.about-text {
+  background-color: #0d7644;
+  padding: 120px 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 22px;
+}
+/* BANKING PAGE */
+.banking-horse {
+  background-image: url("../assets/giorgio-manenti-YH-P6HiTlkQ-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* BANKING PRODUCT IMAGES */
+.checking-account {
+  background-image: url("../assets/nathan-dumlao-lvWw_G8tKsk-unsplash.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 5px -110px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+.fixed-checking {
+  background-image: url("../assets/kaysha-aTn1wwElmE0-unsplash.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: 5px -110px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+/* INVESTMENT */
+.investing-horse {
+  background-image: url("../assets/kenny-webster-QrJc1RVI7uM-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.managed-account {
+  background-image: url("../assets/austin-distel-nGc5RT2HmF0-unsplash.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: 5px -110px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.investment-team {
+  background-image: url("../assets/thisisengineering-raeng-p5wrlynJR4A-unsplash.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: 5px -110px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+/* FOOTER */
+footer ul {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-bottom: #0d7644 2px solid;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  list-style: none;
+  font-size: 20px;
+  color: #0d7644;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* BUTTONS */
+.button {
+  background-color: #bbc29c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+  border: #000 2px solid;
+  text-decoration: none;
+}
+
+/* FORM */
+
+form p,
+label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+label {
+  display: block;
+  padding-top: 10px;
+}
+input[type="text"],
+[type="email"] {
+  height: 70px;
+  width: 800px;
+}
