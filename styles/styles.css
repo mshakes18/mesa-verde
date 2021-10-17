@@ -160,6 +160,10 @@ h2 {
   line-height: 35px;
 }
 
+.person-q {
+  display: block;
+}
+
 /* ABOUT PAGE */
 .about-container {
   width: 1400px;
@@ -357,8 +361,4 @@ select {
 .form-container .button {
   display: inline-block;
   margin-left: 400px;
-}
-
-.jr {
-  display: block;
 }
