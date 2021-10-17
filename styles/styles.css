@@ -358,3 +358,7 @@ select {
   display: inline-block;
   margin-left: 400px;
 }
+
+.jr {
+  display: block;
+}
