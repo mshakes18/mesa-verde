@@ -288,7 +288,7 @@ footer ul {
   font-size: 20px;
   color: #0d7644;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .logo-button {
@@ -324,13 +324,38 @@ label {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-
+/* LABELS */
 .input-label {
   display: block;
   padding-top: 10px;
+}
+/* RADIO BUTTIONS */
+input[type="radio"] {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 10px;
 }
 input[type="text"],
 [type="email"] {
   height: 70px;
   width: 100%;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+/* DROPDOWN */
+select {
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+}
+/* CHECKBOX */
+[type="checkbox"] {
+  height: 25px;
+  width: 25px;
+}
+/* SUBMIT BUTTON */
+.form-container .button {
+  display: inline-block;
+  margin-left: 400px;
 }
