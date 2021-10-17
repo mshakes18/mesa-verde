@@ -20,7 +20,7 @@
   <!-- NAV -->
   <nav class="nav-bar">
 
-    <a href="/"><img src="../assets/Logo_Asterisk copy.png" class="logo" alt="Mesa Verde logo"></a>
+    <a href="/" class="logo-button"><img src="../assets/Logo_Asterisk copy.png" class="logo" alt="Mesa Verde logo"></a>
     <!-- <img src="../assets/Logo_Asterisk copy.png" class="logo" alt="Mesa Verde logo"> -->
     <ul>
       <li><a href="about.html">ABOUT</a></li>
@@ -32,21 +32,21 @@
     </ul>
   </nav>
 
-  <h2>JOIN MESA VERDE BANK & TRUST</h2>
-  <h3>Please complete the form below and one of our private bankers will be in contact</h3>
+  <h2 class="join">JOIN MESA VERDE BANK & TRUST</h2>
+  <h3 class="subtitle">Please complete the form below and one of our private bankers will be in contact</h3>
 
   <div class="form-container">
     <form action="">
-      <label for="first-name">First Name</label>
+      <label for="first-name" class="input-label">First Name</label>
       <input type="text" name="first-name" id="first-name">
       <label for="last-name">Last Name</label>
       <input type="text" name="last-name" id="last-name">
       <label for="email">Email Address</label>
       <input type="email" name="email" id="email">
       <p>Do you have investable assests of over $1MM?</p>
-      <input type="radio" id="yes" value="yes">
+      <input type="radio" id="yes" value="yes" name="assets">
       <label for="assets">Yes</label>
-      <input type="radio" id="no" value="no">
+      <input type="radio" id="no" value="no" name="assets">
       <label for="assets">No</label>
       <p>Services you are interested in</p>
       <select id="services" name="services">
@@ -65,13 +65,14 @@
           essentially
           unchanged.</p>
         <input type="checkbox" id="t-and-c">
+
       </div>
 
     </form>
-
+    <a href="https://giphy.com/gifs/season-better-call-saul-renewed-11jkrpPYTQkaU8" class="button">SUBMIT</a>
   </div>
 
-
+  <!-- FOOTER -->
   <footer>
     <ul>
       <li>About</li>

@@ -71,13 +71,7 @@ body {
 
 /* LOGO */
 .logo {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 150px;
-  height: 150px;
-  margin-top: 20px;
+  width: 100%;
 }
 
 p {
@@ -92,7 +86,9 @@ h3 {
   font-weight: 500;
   color: #0d7644;
 }
-
+.join {
+  margin-top: 70px;
+}
 h2 {
   text-align: center;
 }
@@ -292,9 +288,18 @@ footer ul {
   font-size: 20px;
   color: #0d7644;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
+.logo-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
 /* BUTTONS */
 .button {
   background-color: #bbc29c;
@@ -307,18 +312,50 @@ footer ul {
 
 /* FORM */
 
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.subtitle {
+  text-align: center;
+}
 form p,
 label {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-
-label {
+/* LABELS */
+.input-label {
   display: block;
   padding-top: 10px;
+}
+/* RADIO BUTTIONS */
+input[type="radio"] {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 10px;
 }
 input[type="text"],
 [type="email"] {
   height: 70px;
-  width: 800px;
+  width: 100%;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+/* DROPDOWN */
+select {
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+}
+/* CHECKBOX */
+[type="checkbox"] {
+  height: 25px;
+  width: 25px;
+}
+/* SUBMIT BUTTON */
+.form-container .button {
+  display: inline-block;
+  margin-left: 400px;
 }
