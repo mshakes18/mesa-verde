@@ -160,6 +160,10 @@ h2 {
   line-height: 35px;
 }
 
+.person-q {
+  display: block;
+}
+
 /* ABOUT PAGE */
 .about-container {
   width: 1400px;
@@ -291,7 +295,7 @@ footer ul {
   margin-bottom: 0px;
 }
 
-.logo-button {
+/* .logo-button {
   position: absolute;
   left: 0;
   right: 0;
@@ -299,7 +303,7 @@ footer ul {
   width: 150px;
   height: 150px;
   margin-top: 20px;
-}
+} */
 /* BUTTONS */
 .button {
   background-color: #bbc29c;
@@ -311,7 +315,6 @@ footer ul {
 }
 
 /* FORM */
-
 .form-container {
   max-width: 800px;
   margin: 0 auto;
